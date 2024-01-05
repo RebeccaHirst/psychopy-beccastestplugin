@@ -3,15 +3,15 @@ requires = ["setuptools>=40.8.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "psychopy-crs"
-version = "0.0.2"
-description = "Extension package for PsychoPy which adds support for various hardware devices by Cambridge Research Systems."
+name = "psychopy-beccastestplugin"
+version = "0.0.0"
+description = "Becca testing she can make a plugin"
 readme = "README.md"
 requires-python = ">= 3.7"
 license = {text = "GNU General Public License v3 (GPLv3)"}
 authors = [
-  { name = "Jon Peirce", email = "jon@opensceincetools.org" },
-  { name = "Matthew Cutone", email = "mcutone@opensceincetools.org" },
+  { name = "Rebecca Hirst", email = "becca@opensceincetools.org" },
+  { name = "River the dog", email = "riverisagooddog@opensceincetools.org" }
 ]
 classifiers = [
   "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
@@ -24,10 +24,8 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: Implementation :: CPython",
 ]
-urls.homepage = "https://github.com/psychopy/psychopy-crs"
-urls.changelog = "https://github.com/psychopy/psychopy-crs/blob/main/CHANGELOG.txt"
-urls.documentation = "https://pages.github.com/psychopy/psychopy-crs"
-urls.repository = "https://github.com/psychopy/psychopy-crs"
+urls.homepage = "https://github.com/RebeccaHirst/psychopy-beccastestplugin"
+urls.repository = "https://github.com/RebeccaHirst/psychopy-beccastestplugin"
 dependencies = [
   "pyserial",
   "numpy",
